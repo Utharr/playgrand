@@ -26,3 +26,4 @@ E:\code\project\dotnet_console\ConsoleApp1\obj\Debug\net9.0\refint\ConsoleApp1.d
 E:\code\project\dotnet_console\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.pdb
 E:\code\project\dotnet_console\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.genruntimeconfig.cache
 E:\code\project\dotnet_console\ConsoleApp1\obj\Debug\net9.0\ref\ConsoleApp1.dll
+E:\code\project\dotnet_console\ConsoleApp1\obj\Debug\net9.0\ConsoleApp1.sourcelink.json
