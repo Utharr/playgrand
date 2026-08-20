@@ -9,3 +9,9 @@ if mo:
     print('Main number: ' + mo.group(2))
 else:
     print('No valid phone number found')
+
+
+superheroregex = re.compile(r'batman|superman|spiderman')
+mo1=superheroregex.search('batman and superman are both superheroes')
+if mo1:
+    print('Found superhero: ' + mo1.group())
