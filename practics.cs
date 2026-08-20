@@ -12,6 +12,7 @@ public class say_hello
 
 
 namespace plactics_02
+
 {
     public interface ImessageSender
     {
@@ -53,3 +54,4 @@ namespace plactics_02
         }
     }
 }
+
