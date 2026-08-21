@@ -16,4 +16,10 @@ mo1=superheroregex.search('batman and superman are both superheroes')
 if mo1:
     print('Found superhero: ' + mo1.group())
 
-    
+
+
+event = 108
+
+for i in range(1, event + 1):
+    if event %  i == 0:
+        print(i,(event//i))

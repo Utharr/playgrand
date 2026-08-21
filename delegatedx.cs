@@ -3,11 +3,11 @@ namespace Mytool
     public delegate void MyDel();
     public class Publisher
         {
-            public MyDel Onsomethinghappend;
+            public MyDel? Onsomethinghappend;
             public void Dosomething()
             {
                 Console.WriteLine("发布者做了一些事情");
-                Onsomethinghappend.Invoke();
+                Onsomethinghappend?.Invoke();
             }
         }
 

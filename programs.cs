@@ -2,6 +2,7 @@
 using plactics_01;
 using plactics_02;
 using Mytool;
+using GenericType;
 
 //策略模式的使用
 say_hello.Dosomething("hello world! beautiful world!");
@@ -24,3 +25,8 @@ Subscriber sub = new Subscriber();
 pub.Onsomethinghappend += sub.reaction;
 
 pub.Dosomething();
+
+GenericClass<int> genericInt = new GenericClass<int>(0);
+genericInt.SetValue(100);
+int MyValue = genericInt.GetValue();
+Console.WriteLine($"GenericClass<int> value: {MyValue}");
